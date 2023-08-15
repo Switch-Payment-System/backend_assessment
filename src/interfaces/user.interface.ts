@@ -1,0 +1,6 @@
+export enum UserType {
+  MERCHANT = 'MERCHANT',
+  CUSTOMER = 'CUSTOMER',
+  FXUSERS = 'FXUSERS',
+  MOBILE_AGENT = 'MOBILE_AGENT',
+}

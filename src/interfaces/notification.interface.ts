@@ -1,0 +1,15 @@
+export enum NotificationType {
+  PROFILE_UPDATE = 'PROFILE_UPDATE',
+  WALLET_FUND = 'WALLET_FUND',
+  VERIFY_USER = 'VERIFY_USER',
+  RESET_PASSWORD = 'RESET_PASSWORD',
+  ONBOARDING = 'ONBOARDING',
+  LOGIN = 'LOGIN',
+}
+
+export enum NotificationChannels {
+  SMS = 'SMS',
+  EMAIL = 'EMAIL',
+  WHATSAPP = 'WHATSAPP',
+  CALL = 'CALL',
+}
